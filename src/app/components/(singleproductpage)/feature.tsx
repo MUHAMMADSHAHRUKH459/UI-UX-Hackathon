@@ -25,7 +25,7 @@ export default function ProductPage() {
               <div className="w-full h-64 overflow-hidden">
                 <Image
                   src={val}
-                  alt={`Sofa${i}`}
+                  alt={`product2${i}`}
                   width={400}
                   height={400}
                   className="w-full h-full object-cover"

@@ -48,7 +48,7 @@ export default function Navbar() {
           <Link href={"http://localhost:3000/"}>Home    </Link>
           <Link href={"./Card"}>Shop</Link>
           <Link href={"./Product"}>Product </Link>
-          <Link href={""}>Pages   </Link>
+          {/* <Link href={""}>Pages   </Link> */}
           <Link href={"./About"}>About   </Link>  
           <Link href={"./Contact"}>Contact  </Link>    
         </ul>
