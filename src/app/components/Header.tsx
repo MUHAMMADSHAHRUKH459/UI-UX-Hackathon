@@ -1,6 +1,6 @@
 import { GiSofa } from "react-icons/gi";
 import { FaCartShopping } from "react-icons/fa6";
-import { HiMenu,  } from "react-icons/hi";
+import { HiMenu } from "react-icons/hi";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -47,7 +47,7 @@ export default function Navbar() {
         className="peer-checked:flex hidden md:flex flex-col md:flex-row justify-between items-center bg-white px-4 md:px-16 lg:px-28 py-4"
       >
         <ul className="flex flex-col md:flex-row gap-4 text-xs sm:text-sm md:text-base text-black">
-          <Link href="#">Home</Link>
+          <Link href="/">Home</Link> {/* Updated Home Link */}
           <Link href="./Card">Shop</Link>
           <Link href="./Product">Product</Link>
           <Link href="./About">About</Link>
