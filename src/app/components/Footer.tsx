@@ -47,7 +47,7 @@ export default function Footer() {
                   />
                 </div>
                 <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  Button
+                  Contact Us
                 </button>
               </div>
               <p className="text-gray-500 text-sm mt-2 text-center">Bitters chicharrones fanny pack<br className="lg:block hidden" />waistcoat green juice</p>

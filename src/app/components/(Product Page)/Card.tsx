@@ -11,7 +11,7 @@ export default function Card() {
         <div className="relative w-full h-64 md:h-96">
           <Image
             className="object-cover object-center rounded-lg transform transition-transform duration-300 hover:scale-105"
-            src="/image/prod4.png"
+            src="/image/prod7.png"
             alt="Library Stool Chair"
             layout="fill"
             quality={90}
