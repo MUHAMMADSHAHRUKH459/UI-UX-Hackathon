@@ -5,6 +5,7 @@ import "./globals.css";
 // import { Footer } from "./components/Footer";
 import Navbar from "./components/Header";
 import Footer from "./components/Footer";
+import AicadoChatbot from "./components/AicadoChatbot";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,7 +36,7 @@ export default function RootLayout({
         < Navbar />
         {children}
         < Footer />
-        
+        < AicadoChatbot />
       </body>
     </html>
   );
