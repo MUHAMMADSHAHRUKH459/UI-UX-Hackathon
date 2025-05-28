@@ -5,6 +5,7 @@ import Topcategory from './components/Catogery'
 import { PartnerLogos } from './components/Partners'
 import Newstyle from './components/Popular'
 import Product from './components/Product'
+import AicadoChatbot from './components/AicadoChatbot'
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
         < Topcategory />
         < Newstyle />
         < Product />
+        < AicadoChatbot />
     </div>
   )
 }
